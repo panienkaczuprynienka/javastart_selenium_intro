@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-13T21:00:08 CET" name="All Pet Store Tests" finished-at="2022-01-13T21:00:35 CET" duration-ms="26994">
+    <groups>
+    </groups>
+    <test started-at="2022-01-13T21:00:08 CET" name="Negative Login Tests" finished-at="2022-01-13T21:00:26 CET" duration-ms="18017">
+      <class name="tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.FailedLoginTests@343e225a]" started-at="2022-01-13T21:00:08 CET" name="beforeClass" finished-at="2022-01-13T21:00:08 CET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.FailedLoginTests@343e225a]" started-at="2022-01-13T21:00:08 CET" name="beforeTest" finished-at="2022-01-13T21:00:17 CET" duration-ms="9033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:tests.FailedLoginTests@343e225a]" started-at="2022-01-13T21:00:17 CET" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-01-13T21:00:19 CET" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.FailedLoginTests@343e225a]" started-at="2022-01-13T21:00:19 CET" name="afterTest" finished-at="2022-01-13T21:00:26 CET" duration-ms="6715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.FailedLoginTests -->
+    </test> <!-- Negative Login Tests -->
+    <test started-at="2022-01-13T21:00:08 CET" name="Positive Login Tests" finished-at="2022-01-13T21:00:35 CET" duration-ms="26994">
+      <class name="tests.PositiveLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.PositiveLoginTests@2e7bf7b7]" started-at="2022-01-13T21:00:08 CET" name="beforeClass" finished-at="2022-01-13T21:00:08 CET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(driver.BrowserType)[pri:0, instance:tests.PositiveLoginTests@2e7bf7b7]" started-at="2022-01-13T21:00:08 CET" name="beforeTest" finished-at="2022-01-13T21:00:31 CET" duration-ms="22829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:tests.PositiveLoginTests@2e7bf7b7]" started-at="2022-01-13T21:00:31 CET" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-01-13T21:00:32 CET" duration-ms="834" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element was not displayed!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element was not displayed!
+at page.objects.FooterPage.assertThatDogBannerIsDisplayed(FooterPage.java:39)
+at tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword(PositiveLoginTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.PositiveLoginTests@2e7bf7b7]" started-at="2022-01-13T21:00:34 CET" name="afterTest" finished-at="2022-01-13T21:00:35 CET" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.PositiveLoginTests -->
+    </test> <!-- Positive Login Tests -->
+  </suite> <!-- All Pet Store Tests -->
+</testng-results>

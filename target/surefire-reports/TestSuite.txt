@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.695 s <<< FAILURE! - in TestSuite
+tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword  Time elapsed: 3.451 s  <<< FAILURE!
+java.lang.AssertionError: Element was not displayed!
+	at tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword(PositiveLoginTests.java:27)
+

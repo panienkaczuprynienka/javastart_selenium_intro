@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element was not displayed!",
+      "children" : [ {
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "56c8638f28a9c403",
+        "parentUid" : "70ae3c44dc8f7f10425e8a237ab096ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642104031246,
+          "stop" : 1642104034656,
+          "duration" : 3410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "70ae3c44dc8f7f10425e8a237ab096ce"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

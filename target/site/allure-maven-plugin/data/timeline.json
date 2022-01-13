@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-PO2LC2G",
+    "children" : [ {
+      "name" : "6064@DESKTOP-PO2LC2G.TestNG-tests-2(19)",
+      "children" : [ {
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "56c8638f28a9c403",
+        "parentUid" : "af59b485a5f98f0253b0724b9f064de6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642104031246,
+          "stop" : 1642104034656,
+          "duration" : 3410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "af59b485a5f98f0253b0724b9f064de6"
+    }, {
+      "name" : "6064@DESKTOP-PO2LC2G.TestNG-tests-1(18)",
+      "children" : [ {
+        "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+        "uid" : "ad6a93793ce95f43",
+        "parentUid" : "66b7774c4c239ca21ce89d00c3f21bad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642104017712,
+          "stop" : 1642104019495,
+          "duration" : 1783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "66b7774c4c239ca21ce89d00c3f21bad"
+    } ],
+    "uid" : "408f000d892a0d95ec46bdb1bf1e9c3e"
+  } ],
+  "name" : "timeline"
+}

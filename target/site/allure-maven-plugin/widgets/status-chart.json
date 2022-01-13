@@ -1,0 +1,21 @@
+[ {
+  "uid" : "56c8638f28a9c403",
+  "name" : "asUserLoginUsingValidLoginAndPassword",
+  "time" : {
+    "start" : 1642104031246,
+    "stop" : 1642104034656,
+    "duration" : 3410
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ad6a93793ce95f43",
+  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+  "time" : {
+    "start" : 1642104017712,
+    "stop" : 1642104019495,
+    "duration" : 1783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

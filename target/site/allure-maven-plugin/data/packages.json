@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "FailedLoginTests",
+      "children" : [ {
+        "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+        "uid" : "ad6a93793ce95f43",
+        "parentUid" : "e3580136a18c02a393a52b51913ca632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642104017712,
+          "stop" : 1642104019495,
+          "duration" : 1783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "e3580136a18c02a393a52b51913ca632"
+    }, {
+      "name" : "PositiveLoginTests",
+      "children" : [ {
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "56c8638f28a9c403",
+        "parentUid" : "74ba2ad3ef95ff7120d42bdfa72b7d0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642104031246,
+          "stop" : 1642104034656,
+          "duration" : 3410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "74ba2ad3ef95ff7120d42bdfa72b7d0b"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}

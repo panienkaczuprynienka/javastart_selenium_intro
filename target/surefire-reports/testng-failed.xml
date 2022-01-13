@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Pet Store Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.testng.listeners.TestListener"/>
+    <listener class-name="utils.testng.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Positive Login Tests(failed)" verbose="0">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="tests.PositiveLoginTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="asUserLoginUsingValidLoginAndPassword"/>
+        </methods>
+      </class> <!-- tests.PositiveLoginTests -->
+    </classes>
+  </test> <!-- Positive Login Tests(failed) -->
+</suite> <!-- Failed suite [All Pet Store Tests] -->

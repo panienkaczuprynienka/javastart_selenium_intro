@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "All Pet Store Tests",
+    "children" : [ {
+      "name" : "Negative Login Tests",
+      "children" : [ {
+        "name" : "tests.FailedLoginTests",
+        "children" : [ {
+          "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+          "uid" : "ad6a93793ce95f43",
+          "parentUid" : "245547c94331bc0d291e262939e958c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642104017712,
+            "stop" : 1642104019495,
+            "duration" : 1783
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "245547c94331bc0d291e262939e958c0"
+      } ],
+      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
+    }, {
+      "name" : "Positive Login Tests",
+      "children" : [ {
+        "name" : "tests.PositiveLoginTests",
+        "children" : [ {
+          "name" : "asUserLoginUsingValidLoginAndPassword",
+          "uid" : "56c8638f28a9c403",
+          "parentUid" : "b4b59aefb0a1a76436310a6f902dea90",
+          "status" : "failed",
+          "time" : {
+            "start" : 1642104031246,
+            "stop" : 1642104034656,
+            "duration" : 3410
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "b4b59aefb0a1a76436310a6f902dea90"
+      } ],
+      "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
+    } ],
+    "uid" : "20dcff51a2ecd4af73f197737658a290"
+  } ],
+  "name" : "suites"
+}
