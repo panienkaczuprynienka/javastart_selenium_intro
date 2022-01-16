@@ -13,12 +13,14 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 
   @Override
   public boolean retry(ITestResult iTestResult) {
-    if (!iTestResult.isSuccess()){
-      if (count <MAX_NUMBER_OF_RETRIES) {
+    if (!iTestResult.isSuccess()) {
+      if (count < MAX_NUMBER_OF_RETRIES) {
+        count++;
         logger.info("Retrying test method {}!", iTestResult.getName());
-      count++;
+        return true;
       }
     }
+    logger.info("Test method {} will be not retried!", iTestResult.getName());
     return false;
   }
 }
