@@ -56,7 +56,7 @@ public class LoginPage extends BasePage {
   public LoginPage assertThatWarningIsDisplayed(String warningMessage) {
     log().info("Checking if warning message {} is displayed", warningMessage);
     WaitForElement.waitUntilElementIsVisible(messageLabel);
-    AssertWebElement.assertThat(messageLabel).isDisplayed().hasText(warningMessage);
+    AssertWebElement.assertThat(messageLabel).isNotDisplayed().hasText(warningMessage);
     return this;
   }
 
