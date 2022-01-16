@@ -32,7 +32,6 @@ public class TestBase {
 
   @AfterMethod
   public void afterTest() {
-    ScreenShotMaker.makeScreenShot();
     //Zamknięcie okna przeglądarki
     DriverManager.disposeDriver();
   }
