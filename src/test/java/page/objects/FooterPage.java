@@ -30,7 +30,7 @@ public class FooterPage extends BasePage {
   public FooterPage assertThatDogBannerIsDisplayed() {
     log().info("Checking if dog banner is displayed");
     WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo.get(0));
-    AssertWebElement.assertThat(bannerAfterLoginLogo.get(0)).isNotDisplayed();
+    AssertWebElement.assertThat(bannerAfterLoginLogo.get(0)).isDisplayed();
     return this;
   }
 
